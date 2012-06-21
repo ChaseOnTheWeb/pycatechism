@@ -1,0 +1,14 @@
+pycatechism - A frontend for Jeffrey Pinyan's (@PrayingTheMass) catechism API
+Author: Chase (@ckcathcart/@marleyblakedog)
+Git repo: https://github.com/marleyblakedog/pycatechism
+
+..admonition: This is an early preview. This library and the API itself may
+              both change substantially at any time without advance warning.
+
+Getting Started:
+    from catechism import Catechism
+    c = Catechism('your_email', 'api_key')
+    c.sections.list()
+
+Check out the docstrings for more info, but that's pretty much all there is to it.
+
